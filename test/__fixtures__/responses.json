@@ -1,0 +1,39 @@
+{
+  "chat_completion": {
+    "id": "chatcmpl-123",
+    "object": "chat.completion",
+    "created": 1677649420,
+    "model": "meta-llama/llama-3.1-8b-instruct/fp-8",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "The meaning of life is to seek understanding and growth."
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 25,
+      "completion_tokens": 32,
+      "total_tokens": 57
+    }
+  },
+  "batch": {
+    "id": "batch_123",
+    "object": "batch",
+    "status": "completed",
+    "input_file_id": "file-abc",
+    "output_file_id": "file-xyz",
+    "error_file_id": null,
+    "completion_window": "24h",
+    "created_at": 1677649420,
+    "completed_at": 1677649480,
+    "request_counts": {
+      "total": 2,
+      "completed": 2,
+      "failed": 0
+    }
+  }
+}
