@@ -1,0 +1,2 @@
+{"id":"batch_req_123","custom_id":"req1","response":{"status_code":200,"body":{"choices":[{"message":{"content":"The capital of France is Paris."}}]}}}
+{"id":"batch_req_124","custom_id":"req2","response":{"status_code":200,"body":{"choices":[{"message":{"content":"The capital of Germany is Berlin."}}]}}}
