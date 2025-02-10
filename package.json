@@ -1,0 +1,37 @@
+{
+  "name": "@inferra/sdk",
+  "version": "0.1.0",
+  "description": "Official JavaScript SDK for Inferra.net",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src test",
+    "format": "prettier --write 'src/**/*.ts' 'test/**/*.ts'",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "form-data": "^4.0.0",
+    "p-retry": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.19",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
